@@ -1,4 +1,4 @@
-service: moltin-algolia-sync
+service: moltin-search-sync
 
 provider:
   name: aws
@@ -12,6 +12,6 @@ functions:
   run:
     handler: handler.run
     events:
-      - schedule: 
+      - schedule:
         rate: rate(24 hours)
         name: daily scheduler
