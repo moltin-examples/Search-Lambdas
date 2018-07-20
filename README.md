@@ -9,8 +9,8 @@ Adds moltin products to a third party search index.
 Every 24 hours, updates those products and adds new products.
 
 ## Requirements:
-2. Moltin account, [sign up here](https://accounts.moltin.com/register)
-3. Serverless account, [sign up here](https://dashboard.serverless.com/)
+1. Moltin account, [sign up here](https://accounts.moltin.com/register)
+2. Serverless account, [sign up here](https://dashboard.serverless.com/)
 
 Add in your Algolia or elastic search values to start sending data
 Rename `.example.env` to `.env` and fill in the required values`
