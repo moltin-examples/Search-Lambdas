@@ -1,4 +1,4 @@
-# Moltin & Algolia integration
+# Moltin & Search integrations
 
 ## Status
 - Functional
@@ -19,6 +19,9 @@ Rename `.example.env` to `.env` and fill in the required values`
 Built to be deployed using the serverless framework, configured for AWS.
 
 To deploy, make sure you have your AWS creds configured https://serverless.com/framework/docs/providers/aws/guide/credentials#amazon-web-services
+
+Once Deploy you need to update handler
+The handler name formate is filename.function name. Either elasticsearch.handler or algoliasearch.handler.  You could right addential logic to handle choosing wich one, but for simplicity we left either option.
 
 Ensure `serverless.yml` is set up as you want it.
 
