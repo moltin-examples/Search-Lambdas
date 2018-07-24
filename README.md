@@ -12,7 +12,7 @@ Every 24 hours, updates those products and adds new products.
 1. Moltin account, [sign up here](https://accounts.moltin.com/register)
 2. Serverless account, [sign up here](https://dashboard.serverless.com/)
 
-Add in your Algolia or elastic search values to start sending data
+Add in your Algolia or Elastic search values to start sending data
 Rename `.example.env` to `.env` and fill in the required values`
 
 ## Deploying
